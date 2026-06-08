@@ -274,6 +274,11 @@ $total_channels = $stmt->fetchColumn();
                                 <td>
                                     <a href="?delete_user=<?php echo $user['id']; ?>" class="btn-delete" onclick="return confirm('حذف کاربر؟')">حذف کاربر</a>
                                 </td>
+                                <td>
+    <a href="delete_account.php?id=<?php echo $user['id']; ?>" class="btn-delete" onclick="return confirm('حذف کامل این کاربر و تمام پیام‌ها و کانال‌هایش؟')">
+        <i class="fas fa-trash"></i> حذف کاربر
+    </a>
+</td>
                             </tr>
                             <?php endforeach; ?>
                         </tbody>
