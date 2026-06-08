@@ -62,6 +62,11 @@ $myChannels = $stmt->fetchAll();
                     <i class="fas fa-user-circle"></i>
                     <span>پروفایل من</span>
                 </a>
+                
+                <a href="verify_identity.php" class="menu-item">
+    <i class="fas fa-check-circle"></i>
+    <span>دریافت تیک آبی</span>
+</a>
                 <?php if(isAdmin()): ?>
                 <a href="admin_panel.php" class="menu-item">
                     <i class="fas fa-shield-alt"></i>
