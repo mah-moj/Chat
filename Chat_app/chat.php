@@ -54,6 +54,10 @@ $myChannels = $stmt->fetchAll();
                     <i class="fas fa-home"></i>
                     <span>صفحه اصلی</span>
                 </a>
+                <a href="search.php" class="menu-item">
+        <i class="fas fa-search"></i>
+        <span>جستجو در پیام‌ها</span>
+    </a
                 <a href="create_channel.php" class="menu-item">
                     <i class="fas fa-plus-circle"></i>
                     <span>ساخت کانال جدید</span>
